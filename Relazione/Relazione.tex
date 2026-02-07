@@ -1,0 +1,83 @@
+
+\documentclass[a4paper, 10pt, colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue, hidelinks]{article}
+\usepackage{xcolor}
+
+\usepackage[a-1b]{pdfx}
+
+\usepackage[italian]{babel} % Language
+
+\usepackage{comment}      
+\usepackage{graphicx} % Required for inserting images
+\usepackage{multirow}
+\usepackage{minted} 
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{csquotes}
+
+\usepackage{float} % Required for the [H] option
+\usepackage{caption}
+%\captionsetup[figure]{font=small,labelfont=small}
+
+\usepackage{setspace}
+
+% --- CONFIGURAZIONE HYPERREF (Sempre per ultimo) ---
+\usepackage{hyperref}
+\hypersetup{
+    breaklinks=true,            % Permette ai link di andare a capo
+}
+% ---------------------------------------------------
+
+\begin{document}
+\pagenumbering{roman}
+
+\input{./Tesi/Frontespizio}
+\newpage
+
+\tableofcontents % Table of contents
+
+\pagenumbering{arabic}
+
+\newpage
+
+\section{Introduzione}
+Il progetto 4 del corso di Calcolo Numerico richiedeva di analizzare una fonte di dati da noi scelta e tentare il \textit{fitting} ai minimi quadrati lineari nei parametri.
+
+\section{Dataset}
+Il dataset da noi scelto fa riferimento al \href{https://nathansfranks.sfdbrands.com/en-us/promotions/hot-dog-eating-contest/}{\textit{Nathan's Hot Dog Eating Contest}}.\\
+Il dataset utilizzato può essere trovato al seguente link \url{https://www.kaggle.com/datasets/maraglobosky/hot-dog-eating-contest-results/data}.
+\\
+
+Di tale dataset, i parametri da noi analizzati sono stati gli anni e il numero di hot dog mangiati dal vincitore della competizione in quel particolare anno.
+
+E' importante notare come la competizione, a partire dal 2011, sia stata divisa in due categorie: maschile e femminile, mentre prima di quell'anno era tenuta in una sola categoria aperta a tutti. 
+La nostra analisi prende in considerazione, dal 2011 in poi, i vincitori della categoria maschile.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/GraficoDati.pdf}
+    \caption{Dati grezzi}
+    \label{fig:mpc1-mpc2}
+\end{figure}
+
+\section{Modelli proposti}
+
+\subsection{Modello 1: Lineare}
+
+Il primo modello con cui abbiamo tentato il fitting dei dati è stato un modello lineare del tipo:
+\[y = \beta_0  + \beta_1 t\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/linearmodel.pdf}
+    \caption{Dati grezzi}
+    \label{fig:mpc1-mpc2}
+\end{figure}
+
+
+
+\appendix
+
+
+
+\end{document}
