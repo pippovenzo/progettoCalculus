@@ -70,9 +70,26 @@ Il primo modello con cui abbiamo tentato il fitting dei dati è stato un modello
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./Resources/linearmodel.pdf}
-    \caption{Dati grezzi}
-    \label{fig:mpc1-mpc2}
+    \caption{Grafico fitting modello lineare $R^2 = 0,892$}
 \end{figure}
+
+Non cattura il punto di flesso tra 2000 e 2001
+
+\subsection{Modello 2: Quadratico}
+
+Il secondo modello con cui abbiamo tentato il fitting dei dati è stato un modello polinomiale quadratico del tipo: 
+\[y = \beta_0  + \beta_1 t + \beta_2 t^2\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/quadraticmodel.pdf}
+    \caption{Grafico fitting modello lineare $R^2 = 0,897$}
+\end{figure}
+
+Il fitting del modello quadratico è praticamente uguale al quello del modello lineare è buono ma non soddisfacente, non riesce a catturare il punto di flesso tra il 2000 e il 2001, per questo penso serva un modello cubico.
+
+\subsection{Modello 3: Cubico}
+
 
 
 

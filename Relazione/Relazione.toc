@@ -4,3 +4,5 @@
 \contentsline {section}{\numberline {2}Dataset}{2}{section.2}%
 \contentsline {section}{\numberline {3}Modelli proposti}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Modello 1: Lineare}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Modello 2: Quadratico}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Modello 3: Cubico}{4}{subsection.3.3}%

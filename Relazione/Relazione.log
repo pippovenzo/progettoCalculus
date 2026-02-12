@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.14)  7 FEB 2026 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.14)  10 FEB 2026 10:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/pippovenzo/Documents/Università/Tecnologie WEB/TecWeb/Relazione/Relazione.tex"
-(/Users/pippovenzo/Documents/Università/Tecnologie WEB/TecWeb/Relazione/Relazione.tex
+**/Users/pippovenzo/Documents/Università/Calcolo/progettoCalculus/Relazione/Relazione.tex
+(/Users/pippovenzo/Documents/Università/Calcolo/progettoCalculus/Relazione/Relazione.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -921,7 +921,7 @@ italian.ldf    on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (./Tesi/Frontespizio.tex
-<Resources/UNIPD_Logo.png, id=22, 1204.5pt x 1204.5pt>
+<Resources/UNIPD_Logo.png, id=30, 1204.5pt x 1204.5pt>
 File: Resources/UNIPD_Logo.png Graphic file (type png)
 <use Resources/UNIPD_Logo.png>
 Package pdftex.def Info: Resources/UNIPD_Logo.png  used on input line 7.
@@ -946,7 +946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
-<./Resources/GraficoDati.pdf, id=46, 520.94624pt x 381.425pt>
+<./Resources/GraficoDati.pdf, id=56, 520.94624pt x 381.425pt>
 File: ./Resources/GraficoDati.pdf Graphic file (type pdf)
 <use ./Resources/GraficoDati.pdf>
 Package pdftex.def Info: ./Resources/GraficoDati.pdf  used on input line 58.
@@ -954,40 +954,43 @@ Package pdftex.def Info: ./Resources/GraficoDati.pdf  used on input line 58.
 
 
 [2 <./Resources/GraficoDati.pdf>]
-<./Resources/linearmodel.pdf, id=66, 550.055pt x 395.4775pt>
+<./Resources/linearmodel.pdf, id=76, 550.055pt x 395.4775pt>
 File: ./Resources/linearmodel.pdf Graphic file (type pdf)
 <use ./Resources/linearmodel.pdf>
 Package pdftex.def Info: ./Resources/linearmodel.pdf  used on input line 72.
 (pdftex.def)             Requested size: 418.25368pt x 300.72292pt.
+<./Resources/quadraticmodel.pdf, id=77, 550.055pt x 395.4775pt>
+File: ./Resources/quadraticmodel.pdf Graphic file (type pdf)
+<use ./Resources/quadraticmodel.pdf>
+Package pdftex.def Info: ./Resources/quadraticmodel.pdf  used on input line 85.
+(pdftex.def)             Requested size: 418.25368pt x 300.72292pt.
 
 
 [3 <./Resources/linearmodel.pdf>]
-runsystem(latexminted cleantemp  --timestamp 20260207114455 4954F4E3BD95FDE1209FDA1EB11EBF3D)...executed.
+
+[4 <./Resources/quadraticmodel.pdf>]
+runsystem(latexminted cleantemp  --timestamp 20260210103034 4954F4E3BD95FDE1209FDA1EB11EBF3D)...executed.
 
  (./Relazione.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 60DEC4E435D52AFB4B273EACC69A7787;460.
+(rerunfilecheck)             Checksum: 057A75E4AE0AFF2AA00B6D26AC8FC61D;776.
  ) 
 Here is how much of TeX's memory you used:
- 20207 strings out of 473190
- 373516 string characters out of 5715800
+ 20220 strings out of 473190
+ 373887 string characters out of 5715800
  880794 words of memory out of 5000000
- 43196 multiletter control sequences out of 15000+600000
+ 43205 multiletter control sequences out of 15000+600000
  561216 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,6n,95p,580b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,6n,95p,581b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Relazione.pdf (4 pages, 550545 bytes).
+Output written on Relazione.pdf (5 pages, 580470 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
