@@ -90,7 +90,28 @@ Il fitting del modello quadratico è praticamente uguale al quello del modello l
 
 \subsection{Modello 3: Cubico}
 
+\subsection{Modello 4: Esponenziale}
 
+\subsection{Modello 5: Logaritmico}
+
+Il quinto modello con cui si è tentato il fitting è un modello logaritmico del tipo:
+\[y = \beta_0 + \beta_1 \log(t+1)\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/Logaritmico.pdf}
+    \caption{Grafico fitting modello logaritmico $R^2 = 0,641$}
+\end{figure}
+
+Dato il risultato non così soddisfacente, si è deciso di aggiungere al modello logaritmico puro, un componente lineare, rispettando così il vincolo di utilizzo di un modello non polinomiale e con parametri lineari, che allo stesso tempo consentisse di migliorare l'aderenza della previsione ai dati e di conseguenza l'indice $R^2$.
+Il modello ottenuto è del tipo:
+\[ y = \beta_0 + \beta_1 t + \beta_2 \log(t+1)\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/Logaritmicolineare.pdf}
+    \caption{Grafico fitting modello logaritmico + lineare $R^2 = 0,909$}
+\end{figure}
 
 
 \appendix
