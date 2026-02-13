@@ -10,6 +10,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{multirow}
 \usepackage{minted} 
+\bibliographystyle{unsrt}
 
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -51,7 +52,9 @@ Il dataset utilizzato può essere trovato al seguente link \url{https://www.kagg
 Di tale dataset, i parametri da noi analizzati sono stati gli anni e il numero di hot dog mangiati dal vincitore della competizione in quel particolare anno.
 
 E' importante notare come la competizione, a partire dal 2011, sia stata divisa in due categorie: maschile e femminile, mentre prima di quell'anno era tenuta in una sola categoria aperta a tutti. 
-La nostra analisi prende in considerazione, dal 2011 in poi, i vincitori della categoria maschile.
+La nostra analisi prende in considerazione, dal 2011 in poi, i vincitori della categoria maschile.\\
+
+Il dataset disponibile su \textit{Kaggle} non è aggiornato al 2025, per questo è stato aggiornato da noi in una versione locale con i dati disponibili nel sito dell'oraganizzatore del contest.
 
 \begin{figure}[H]
     \centering
@@ -59,6 +62,16 @@ La nostra analisi prende in considerazione, dal 2011 in poi, i vincitori della c
     \caption{Dati grezzi}
     \label{fig:mpc1-mpc2}
 \end{figure}
+
+\subsection{Analisi dei dati}
+Il dataset da noi considerato è stato analizzati in un paper, \textit{Smoliga, 2020} \cite{Smoliga:2020}, che stima la massima capacità gastrica umana sulla base dei dati, in termini di \textit{Active Consumption Rate} (ACR) ovvero la massa di cibo consumata in un determinato periodo di tempo. 
+
+Nel caso del \textit{Nathan's Hot Dog Eating Contest} il cibo considerato è un Hot Dog, compreso di pane (\textit{Bun}) e salsiccia (\textit{hot dog}), con massa di circa 100g. 
+
+L'analisi fatta da \textit{Smoliga, 2020} conclude che la massima ACR teorica, per individui con plasticità dell'apparato digerente allenata, è di 832 g/min$^{-1}$ che corrisponde a 83.2 Hot Dog in 10 minuti.
+
+Da questo risultato si conclude che l'apparto digerente umano, seppur allenato, possiede quindi un limite fisico che non permetterà di superare il record di circa 83 Hot Dog una volta raggiunto. 
+
 
 \section{Modelli proposti}
 
@@ -90,11 +103,23 @@ Il fitting del modello quadratico è praticamente uguale al quello del modello l
 
 \subsection{Modello 3: Cubico}
 
+Il terzo modello con cui abbiamo tentato il fitting dei dati è stato un modello polinomiale cubico del tipo: 
+\[y = \beta_0  + \beta_1 t + \beta_2 t^2 + \beta_3 t^3\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Resources/cubicmodel.pdf}
+    \caption{Grafico fitting modello lineare $R^2 = 0,948$}
+\end{figure}
+
+Possiamo notare che il modello cubico, rispetto ai due precedenti, è di gran lunga migliore, con fit maggiore di 0,1
 
 
 
-\appendix
 
 
 
+
+\bibliography{citations}
 \end{document}
+
