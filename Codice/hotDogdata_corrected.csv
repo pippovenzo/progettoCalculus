@@ -1,4 +1,6 @@
 ﻿winnerID,year,firstName,lastName,numberDogs,totalCompetitors,division,newRecord
+1,2025,Joey,Chestnut,70.5,16,M,TRUE
+26,2024,Patrick,Bertoletti,58,15,M,FALSE
 1,2023,Joey,Chestnut,62,15,M,FALSE
 2,2023,Miki,Sudo,39.5,14,F,FALSE
 1,2022,Joey,Chestnut,63,16,M,FALSE
