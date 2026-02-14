@@ -17,7 +17,6 @@ figure('Color', 'w', 'Position', [150, 150, 900, 600]); % Spostata leggermente p
 hold on;
 % Plot dei dati
 plot(anni, hdm, 'ko', 'MarkerFaceColor', 'k', 'DisplayName', 'Dati Reali (CSV)');
-
 % Calcolo fitting dati esponenziale (y = A * e^(B*t))
 % Linearizziamo prendendo il logaritmo naturale di hdm
 X1 = [ones(n, 1), t]; %matrice del modello lineare: colonna di 1 e colonna con gli anni
@@ -35,7 +34,7 @@ t_grid = linspace(min(t), max(t), 200)'; %griglia di 200 punti equidistanti per 
 anni_grid = t_grid + min(anni); %riporta gli anni al formato orignali in millenni
 X1_plot = [ones(200, 1), t_grid]; %crea la griglia per il grafico
 y_plot_exp = exp(X1_plot * beta_exp); 
-plot(anni_grid, y_plot_exp, 'Color', 'g', 'LineWidth', 2, ...
+plot(anni_grid, y_plot_exp, 'Color', 'r', 'LineWidth', 2, ...
      'DisplayName', sprintf('%s (R^2: %.3f)', 'Esponenziale', R2_exp));
 
 % Cosmetica del Grafico 2
