@@ -37,7 +37,7 @@ X_log_plot = [ones(200,1),t_grid, log(t_grid+1)]; %crea la griglia per il grafic
 y_log_plot = X_log_plot * beta_log; %calcolo dei punti da plottare sugli anni veri con beta calcolata precedentemente
 
 % Plot
-plot(anni_grid, y_log_plot, 'b', 'LineWidth', 2, ...
+plot(anni_grid, y_log_plot, 'r', 'LineWidth', 2, ...
     'DisplayName', sprintf('Logaritmico + Lineare (R^2: %.3f)', R2_log));
 
 % Cosmetica del Grafico
